@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+SEQ_CLS/deepseek-ai
+SEQ_CLS/checkpoints
+SEQ_CLS/adapter
