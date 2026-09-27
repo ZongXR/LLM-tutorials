@@ -51,4 +51,3 @@ if __name__ == '__main__':
             logits = model(**inputs).logits
         preds = logits.argmax(dim=-1).cpu().numpy().tolist()
         print([model.config.id2label[x] for x in preds])
-        break

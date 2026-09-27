@@ -45,4 +45,3 @@ if __name__ == '__main__':
             logits = model(**{k: v.to("cuda:0") for k, v in inputs.items()}).logits
         preds = logits.argmax(dim=-1).cpu().numpy().tolist()
         print([model.config.id2label[x] for x in preds])
-        break
