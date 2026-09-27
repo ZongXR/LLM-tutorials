@@ -72,7 +72,7 @@ if __name__ == '__main__':
     model.resize_token_embeddings(len(tokenizer))
     model.config.pad_token = tokenizer.pad_token
     model.config.pad_token_id = tokenizer.pad_token_id
-    tokenizer.padding_side = "right"                            # decoder模型在CAUSAL_LM需要 right pad
+    tokenizer.padding_side = "right"                            # decoder模型在CAUSAL_LM训练时需要 right pad
 
     # 加载训练数据集
     data = pd.read_excel("data/2.1train.xlsx", dtype=str, index_col="id")
