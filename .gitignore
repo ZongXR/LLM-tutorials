@@ -220,3 +220,6 @@ __marimo__/
 SEQ_CLS/deepseek-ai
 SEQ_CLS/checkpoints
 SEQ_CLS/adapter
+CAUSAL_LM/deepseek-ai
+CAUSAL_LM/checkpoints
+CAUSAL_LM/adapter
