@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-使用chat template 按照DataLoader批量样本推理
+自定义提示词，按照DataLoader批量样本推理
 """
 import pandas as pd
 from pandas import DataFrame

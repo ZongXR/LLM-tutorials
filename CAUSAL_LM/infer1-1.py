@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-使用chat template逐一样本推理
+自定义提示词，逐一样本推理
 """
 import torch
 import pandas as pd
